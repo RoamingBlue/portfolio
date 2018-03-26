@@ -1,10 +1,11 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { LocalWeatherComponent } from './local-weather.component';
 
 @NgModule({
   imports: [
     CommonModule
   ],
-  declarations: []
+  declarations: [LocalWeatherComponent]
 })
 export class LocalWeatherModule { }
